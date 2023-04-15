@@ -57,37 +57,37 @@ const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')
 
         if(time2 < "23:59:00"){
 
-        var ucapanWaktu = 'Good night 🌌'
+        var ucapanWaktu = 'اليل 🌌'
 
 }
 
         if(time2 < "19:00:00"){
 
-        var ucapanWaktu = 'Good afternoon 🌆'
+        var ucapanWaktu = 'الفجر🌆'
 
 }
 
         if(time2 < "18:00:00"){
 
-        var ucapanWaktu = 'Good afternoon 🌇'
+        var ucapanWaktu = 'طلوع الشمس 🌇'
 
 }
 
         if(time2 < "15:00:00"){
 
-        var ucapanWaktu = 'Good afternoon 🏞'
+        var ucapanWaktu = 'بعد الفجر 🏞'
 
 }
 
         if(time2 < "11:00:00"){
 
-        var ucapanWaktu = 'Good morning 🌅'
+        var ucapanWaktu = 'الصباح 🌅'
 
 }
 
         if(time2 < "05:00:00"){
 
-        var ucapanWaktu = 'Good night 🏙'
+        var ucapanWaktu = 'اليل 🏙'
 
 }
 
@@ -1539,8 +1539,8 @@ for (let anju of kaiaudio){
     
 	
 	
-	 if (smallinput=='a17') {
-        reply ('Yes I am Alive 🫂')
+	 if (smallinput=='زيروتو') {
+        reply ('نعم انا على قيد الحياه🫂')
     }
 	
 	
@@ -2261,12 +2261,12 @@ replay('This Group has been *unbanned* from using me!')
 
 case 'support': case 'supportgc':
     
-    reply(`⚙ *My developer's group:* ⚙ http://gg.gg/12ewfs`)
+    reply(`⚙ *قروب التطوير:* ⚙ https://chat.whatsapp.com/LAASmxox5c75HILkYXe2AX `)
     break
 
 case 'repo': case 'botrepo':
     
-    reply(`⚙ My Source Code is </> - https://github.com/Kai0071/A17`)
+    reply(`⚙ قروب التطوير </> - https://chat.whatsapp.com/LAASmxox5c75HILkYXe2AX `)
     break
 
 case 'nsfwmenu':
@@ -5710,7 +5710,7 @@ await sleep(1500)
 let btn = [{
 quickReplyButton: {
 displayText: '💡 Menu 💡',
-id: '-menu'
+id: '.menu'
 }  
 }, {
 quickReplyButton: {
@@ -5726,220 +5726,215 @@ replay('Broadcast Sent !')
 break    
 
 
-case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
+case 'help': case 'h': case 'menu': case 'اوامر': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 A17.sendMessage(from, { react: { text: "✨" , key: m.key }})      
-const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
+const helpmenu = `هلا *${pushname}* وقت الطلب...!! ${ucapanWaktu} ,
 
-│───────────────────────│
-┠⬡│▸ ${pushname} I am *A17*, a Bot Developed by *Kai*.
-│───────────────────────│
-│╭────────────────···▸
-┠─────═[ *TODAY* ]═────
-│╰────────────────···▸
-│╭────────────────···▸
-┴│▸ 
-⬡│▸ *Time* : ${kaitime}
-⬡│▸ *Date* : ${kaidate}
-┬│▸
-│╰────────────────···▸
-┠───═[ *BOT INFO* ]═──▸
-│╭────────────────···▸
-┴│▸ 
-⬡│▸ *Bot usr name :* ${pushname} 
-⬡│▸ *My prefix is :*  ${prefix}
-⬡│▸ *Owner name :* ${global.OwnerName} 
-⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
-⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
-⬡│▸ *Bot runtime :* ${runtime(process.uptime())} 
-⬡│▸ *Platform :* Linux 
-┬│▸
-│╰────────────────···▸
-┠⬡│▸ Here's the list of my Commands.
-│╭────────────────···▸
-│╰────────────────···▸
-┠─━━〈 ⚙️ *Core* ⚙️ 〉━━
-│╭────────────────···▸
-┴│▸ 
-⬡│▸ speak, A17, stalk
-⬡│▸ profile, delete
-⬡│▸ deleteall, listgc, listpc
-⬡│▸ welcome, support
-⬡│▸ repo, script, help
-┬│▸
-╰────────────────···▸
-┠━━〈 ❤️‍🔥 *Owner* ❤️‍🔥 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ self, public,
-⬡│▸ setdp, post
-⬡│▸ join, bye
-⬡│▸ listonline, listgc
-⬡│▸ listpc, cpp, getcase
-⬡│▸ bangroup, block, 
-⬡│▸ unblock, broadcast,
-⬡│▸ ban add, ban del
-┬│▸ 
-╰────────────────···▸
-┠━━〈 ⭕ *Group* ⭕ 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ add, remove, tagall
-⬡│▸ promote, demote, revoke
-⬡│▸ hidetag, groupsetting 
-⬡│▸ grouplink, setgcpp
-⬡│▸ setname, setdesc,leveling
-⬡│▸ group, nsfw, nsnfwmenu
-┬│▸
-╰────────────────···▸
-┠━━〈 ❗ *Anti Link ❗* 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ antilinkgc, antilinktg
-⬡│▸ antilinktt, antilinkytch
-⬡│▸ antilinkytvid, antilinkig
-⬡│▸ antilinkfb, antilinktwit
-⬡│▸ antilinkall, antiwame
-┬│▸
-╰────────────────···▸
-┠━━〈 🔍 *Search* 🔎 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ play, ytmp3, ytmp4 
-⬡│▸ yts, lyrics, movie
-⬡│▸ google, gimage, pinterest
-⬡│▸ image, wallpaper
-⬡│▸ searchgc, happymod
-⬡│▸ wikimedia, ringtone
-⬡│▸ anime, animestory
-⬡│▸ manga, ringtone
-┬│▸
-╰────────────────···▸
-┠━━〈 📈 *Economy* 📈 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ daily, wallet
-⬡│▸ bank, bankupgrade
-⬡│▸ deposit, withdraw 
-⬡│▸ rob / attack
-⬡│▸ transfer / give
-⬡│▸ wealth / ritual
-┬│▸
-╰────────────────···▸
-┠━━〈 🎮 *Games* 🎮 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ ttt / tictactoe
-⬡│▸ truth, dare
-⬡│▸ spin / slot
-⬡│▸ gamble / lottery
-┬│▸
-╰────────────────···▸
-┠━━〈 🛠️ *Convert* 🛠️ 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ sticker, toimg, tovideo
-⬡│▸ togif, steal, stickermeme
-⬡│▸ emojimix, tourl, tomp3, toaudio
-┬│▸
-╰────────────────···▸
-┠━━〈 🎼 *Audio* 🎼 〉━━
-│╭───────────────···▸
-┴│▸ 
-⬡│▸ bass, tempo, blown,
-⬡│▸ robot, slow, squirrel
-⬡│▸ deep, earrape, fast,
-⬡│▸ fat, nightcore, reverse,
-┬│▸
-╰────────────────···▸
-┠━━〈 📍 *Reactions* 📍 〉━━
-│╭───────────────···▸
-┴│▸  
-⬡│▸ cuddle, hug, kiss, 
-⬡│▸ bonk, cry, bully,
-⬡│▸ slap, kill, happy,
-⬡│▸ lick, pat, smug,
-⬡│▸ nom, glomp, bite,
-⬡│▸ yeet, blush, smile,
-⬡│▸ wave, highfive, handhold,
-⬡│▸ wink, poke, dance, cringe
-┬│▸
-╰────────────────···▸
-┠━━〈 🌌 *Downloader* 🌌 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ ytvideo, mediafire, instagram,
-⬡│▸ igtv, facebook, fbmp3,
-⬡│▸ twitter, twittermp3,
-⬡│▸ tiktok, tiktokaudio, happymod
-⬡│▸ tiktoknowm, mediafire  
-┬│▸
-╰────────────────···▸
-┠━━〈 🎐 *Fun* 🎐 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ reaction,  cutecheck
-⬡│▸ couple, soulmate, handsomecheck
-⬡│▸ beautifulcheck, awesomecheck
-⬡│▸ greatcheck, gaycheck,
-⬡│▸ uglycheck, charactercheck
-⬡│▸ lesbiancheck, hornycheck,
-⬡│▸ prettycheck, lovelycheck,
-┬│▸
-╰────────────────···▸
-┠━━〈 🈴 *Weeb* 🈴 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ crosplay, waifu, loli,
-⬡│▸ tickle, wallpaper, coffee,
-⬡│▸ neko, ppcouple, feed,
-⬡│▸ foxgirl, feed, meow,
-⬡│▸ animenom, waifu3, neko2,
-⬡│▸ feed, meow, tickle, migumin
-⬡│▸ awoo, animewallpaper2
-⬡│▸ anime, manga
-┬│▸
-╰────────────────···▸
-┠━━〈 ♨️ *Informative* ♨️ 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ animequote, quote, weather
-⬡│▸ covid, earthquake, wiki
-⬡│▸ stalknumber / nowa
-┬│▸
-╰────────────────···▸
-━━〈 🪁 *Essentials* 🪁 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ qr, say, translate, 
-⬡│▸ fliptext, toletter
-┬│▸
-╰────────────────···▸
-┠━━〈 🎗 *Others* 🎗 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ stickermeme, quotes,
-⬡│▸ Report, darkjoke, afk
-┬│▸
-╰────────────────···▸
-┠━━〈 ⚠️ *NSFW* ⚠️ 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ 🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
-⬡│▸
-⬡│▸ 🍁 Then type " *${prefix}nsfwmenu* " for all NSFW commands.
-⬡│▸
-⬡│▸
-⬡│▸ 『  *${global.BotName}*  』
-⬡│▸    Developed By: *Kai*
-⬡│▸
-⬡│▸ 🌹 To use any of these commands type 
-⬡│▸ " *${prefix}<Command name>* ".
-⬡│▸
-⬡│▸ 🌹 To get Support Group link type " *${prefix}support* ".
-⬡│▸
-⬡│▸ 🌹 Type " *${prefix}help* " to get full command list.`
+┠⬡│▸ ${pushname} انا بوت اسمي زيور تو*,
+تم صنع البوت من صنع *لايت*.
+ملاحظة البوت قيد التعديل 
+وهذا مثال بسيط عن الاوامر
+
+─────═[ *اليوم* ]═────
+────────────────·
+
+*الساعه* : ${kaitime}
+*التاريخ* : ${kaidate}
+────────────────·
+─────═[ *معلومات البوت* ]═────
+
+*اسم البوت :* ${pushname} 
+*علامه الاستخدام :*  ${prefix}
+*اسم المطور :* ${global.OwnerName} 
+*سرعه البوت :* ${latensie.toFixed(4)} ms 
+*عدد مستخدمين البوت :* ${Object.keys(global.db.users).length}
+*وقت تشغيل البوت :* ${runtime(process.uptime())} 
+*تم تشغيل البوت بنظام :* هيروكو 
+
+────────────────·
+ها هي قائمة أوامري.
+────────────────·
+─━━〈 ⚙️ *جوهر* ⚙️ 〉━━
+────────────────·
+
+speak, زيروتو, stalk
+profile, delete
+deleteall, listgc, listpc
+welcome, support
+repo, script, help
+────────────────·
+━━〈 ❤️‍🔥 *المطور* ❤️‍🔥 〉━━
+────────────────·
+
+self, public,
+setdp, post
+join, bye
+listonline, listgc
+listpc, cpp, getcase
+bangroup, block, 
+unblock, broadcast,
+ban add, ban del
+────────────────·
+━━〈 ⭕ *القروب* ⭕ 〉━━
+────────────────·
+add, remove, tagall
+promote, demote, revoke
+hidetag, groupsetting 
+grouplink, setgcpp
+setname, setdesc,leveling
+group, nsfw, nsnfwmenu
+
+────────────────·
+━━〈 ❗ *منع الروابط ❗* 〉━━
+────────────────·
+
+antilinkgc, antilinktg
+antilinktt, antilinkytch
+antilinkytvid, antilinkig
+antilinkfb, antilinktwit
+antilinkall, antiwame
+
+────────────────·
+┠━━〈 🔍 *البحث* 🔎 〉━━
+────────────────·
+
+play, ytmp3, ytmp4 
+yts, lyrics, movie
+google, gimage, pinterest
+image, wallpaper
+searchgc, happymod
+wikimedia, ringtone
+anime, animestory
+manga, ringtone
+
+────────────────·
+┠━━〈 📈 *البنك* 📈 〉━━
+────────────────·
+
+daily, wallet
+bank, bankupgrade
+deposit, withdraw 
+rob / attack
+transfer / give
+wealth / ritual
+
+────────────────·
+┠━━〈 🎮 *العاب* 🎮 〉━━
+────────────────·
+
+ttt / tictactoe
+truth, dare
+spin / slot
+gamble / lottery
+
+────────────────·
+┠━━〈 🛠️ *غير* 🛠️ 〉━━
+────────────────·
+
+sticker, toimg, tovideo
+togif, steal, stickermeme
+emojimix, tourl, tomp3, toaudio
+
+────────────────·
+┠━━〈 🎼 *الصوت* 🎼 〉━━
+────────────────·
+
+bass, tempo, blown,
+robot, slow, squirrel
+deep, earrape, fast,
+fat, nightcore, reverse,
+
+────────────────·
+┠━━〈 📍 *ردود الفعل* 📍 〉━━
+────────────────·
+
+cuddle, hug, kiss, 
+bonk, cry, bully,
+slap, kill, happy,
+lick, pat, smug,
+nom, glomp, bite,
+yeet, blush, smile,
+wave, highfive, handhold,
+wink, poke, dance, cringe
+
+────────────────·
+┠━━〈 🌌 *التنزيل* 🌌 〉━━
+────────────────·
+
+ytvideo, mediafire, instagram,
+igtv, facebook, fbmp3,
+twitter, twittermp3,
+tiktok, tiktokaudio, happymod
+tiktoknowm, mediafire  
+
+────────────────·
+┠━━〈 🎐 *مرح* 🎐 〉━━
+────────────────·
+
+reaction,  cutecheck
+couple, soulmate, handsomecheck
+beautifulcheck, awesomecheck
+greatcheck, gaycheck,
+uglycheck, charactercheck
+lesbiancheck, hornycheck,
+prettycheck, lovelycheck,
+
+────────────────·
+┠━━〈 🈴 *اوامر اضافيه* 🈴 〉━━
+────────────────·
+
+crosplay, waifu, loli,
+tickle, wallpaper, coffee,
+neko, ppcouple, feed,
+foxgirl, feed, meow,
+animenom, waifu3, neko2,
+feed, meow, tickle, migumin
+awoo, animewallpaper2
+anime, manga
+
+────────────────·
+┠━━〈 ♨️ *معلومات* ♨️ 〉━━
+────────────────·
+
+animequote, quote, weather
+covid, earthquake, wiki
+stalknumber / nowa
+
+────────────────·
+━━〈 🪁 *أساسيات* 🪁 〉━━
+────────────────·
+
+qr, say, translate, 
+fliptext, toletter
+
+────────────────·
+┠━━〈 🎗 *غير* 🎗 〉━━
+────────────────·
+
+stickermeme, quotes,
+Report, darkjoke, afk
+
+────────────────·
+┠━━〈 ⚠️ *اوامر🔞* ⚠️ 〉━━
+────────────────·
+
+🍁 اكتب " *${prefix}nsfw* "ثم قم بتمكين NSFW (المسؤول فقط!) 
+
+🍁 ثم اكتب " *${prefix}nsfwmenu*لجميع أوامر NSFW.
+
+────────────────·
+
+『  *${global.BotName}*  』
+   مطور البوت: *لايت*
+
+ 🌹 لاستخدام أي من أنواع الأوامر هذه
+ " *${prefix}<اسم الأمر>* ".
+
+ 🌹للحصول على نوع رابط مجموعة الدعم " *${prefix}support* ".
+
+ 🌹 اكتب " *${prefix}help* "للحصول على قائمة الأوامر الكاملة.`
     
         let buttonMessage = {
                     video:fs.readFileSync('./system/A17_2.mp4'),gifPlayback:true,
