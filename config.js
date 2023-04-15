@@ -10,13 +10,13 @@ global.antitags = true
 //global.autoTyping = false //auto tying in gc (true to on, false to off)
 //global.autoRecord = true //auto recording (true to on, false to off)
 
-global.Owner = ['916297175943','919362639362']  //If you want singal number so global.Owner = ['916297175943'] Change into your number
-global.OwnerNumber = ['916297175943','919362639362']  //If you want singal number so global.Owner = ['916297175943'] Change into your number
-global.ownertag = ['916297175943']
-global.BotName = "A17"
-global.packname = "A17 bot"
-global.author = "By: Kai"
-global.OwnerName = "Kai"
+global.Owner = ['971553527240','971553527240']  //If you want singal number so global.Owner = ['916297175943'] Change into your number
+global.OwnerNumber = ['971553527240','971553527240']  //If you want singal number so global.Owner = ['916297175943'] Change into your number
+global.ownertag = ['𝐋𝐈𝐆𝐇𝐓']
+global.BotName = "زيرو تو"
+global.packname = "زيرو تو يروحي"
+global.author = "971553527240"
+global.OwnerName = "لايت"
 global.BotSourceCode = "https://github.com/Kai0071/A17"
 global.SupportGroupLink = "https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q"
 global.sessionName = "session"
@@ -61,19 +61,19 @@ global.ntilink = []
 
 
 global.mess = {
-    jobdone: 'Job done...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Dear*!',
-    botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-    botowner: 'Only my *Owner* can use this command, Yeah!',
-    grouponly: 'This command is only made for *Groups*, Baka!',
-    privateonly: 'This command is only made for *Private Chat*, Okey ?!',
-    botonly: 'Only the *Bot itself* can use this command!',
-    waiting: ' Ruko Zara...',
-    nolink: 'Please provide me *link*, Uff!',
-    error: 'An error occurd!',
-    banned: 'You are *Banned* fron using commands!, Haha',
-    bangc: 'This Group is *Banned* from using Commands!',
-    nonsfw: 'Dont be a pervert  Uff! This is not a NSFW enabled group!, Uff!,'
+    jobdone: 'تم...',
+    useradmin: 'عذرا، فقط *مسؤولو المجموعة* يمكنهم استخدام هذا الأمر *عزيزي*!',
+    botadmin: 'آسف، لا يمكنني تنفيذ هذا الأمر دون أن أكون *مسؤول* لهذه المجموعة.',
+    botowner: 'فقط *المالك* الخاص بي يمكنه استخدام هذا الأمر، !',
+    grouponly: 'هذا الأمر مصنوع فقط من أجل *المجموعات*، باكا!',
+    privateonly: 'هذا الأمر مصنوع فقط من أجل *الدردشة الخاصة*، حسنا ?!',
+    botonly: 'فقط *البوت نفسه* يمكنه استخدام هذا الأمر!',
+    waiting: ' اصبر...',
+    nolink: 'من فضلك قدم لي *رابط*، Uff!',
+    error: 'حدث خطأ ما!',
+    banned: 'انت  *تبندت* من استخدام البوت!, هههه',
+    bangc: 'هذه المجموعة *تبندت* من استخدام الأوامر!',
+    nonsfw: 'لا تكن منحرفا! هذه ليست مجموعة ممكنة من NSFW!, Uff!,'
     
 }
 
