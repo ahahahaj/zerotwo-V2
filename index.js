@@ -149,11 +149,11 @@ A17.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                 let WAuserName = num
                 A17text = `
-Hello @${WAuserName.split("@")[0]},
+هلا @${WAuserName.split("@")[0]},
 
-I am *A17 Bot*, Welcome to ${metadata.subject}.
+انا *زيرو تو*, منور ف ${metadata.subject}.
 
-*Group Description:*
+*وصف القروب:*
 ${metadata.desc}
 `
 
@@ -168,9 +168,10 @@ A17.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
                     A17text = `
-Okay Bye 👋, @${WAuserName.split("@")[0]},
+حد يبقا فقروب قمر زي ده ويطلع 👋, @${WAuserName.split("@")[0]},
 
-I hope you will come back soon, but You will be missed!
+آمل أن تعود قريبا، لكن لن نفتقدك!
+
 `
 
     let buttonMessage = {
